@@ -2,7 +2,6 @@ from django_filters import rest_framework as filters
 from rest_framework import mixins, viewsets
 from rest_framework.filters import SearchFilter
 from rest_framework.pagination import LimitOffsetPagination
-
 from reviews.models import Title
 
 from .permissions import AdminOrReadOnly

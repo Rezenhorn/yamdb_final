@@ -5,7 +5,6 @@ from django.shortcuts import get_object_or_404
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 from rest_framework.validators import UniqueValidator
-
 from reviews.models import Categories, Comment, Genres, Review, Title
 from reviews.validators import validate_year
 from users.validators import UsernameValidator

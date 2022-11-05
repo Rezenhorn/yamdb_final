@@ -13,6 +13,6 @@ class UsernameValidator(UnicodeUsernameValidator):
         if invalid_input:
             raise ValidationError('Недопустимые символы в username.'
                                   'Допустимы только буквы, цифры и @/./+/-/_')
-        elif (value.lower() == 'me'):
+        if (value.lower() == 'me'):
             raise ValidationError('Username "me" запрещен.')
         return value
