@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: rezenhorn/yamdb:v1
+    image: rezenhorn/yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
