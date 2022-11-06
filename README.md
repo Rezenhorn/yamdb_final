@@ -11,7 +11,7 @@
 
 ### Клонировать репозиторий и перейти в него:
 ```
-git clone https://github.com/Rezenhorn/infra_sp2.git
+git clone https://github.com/Rezenhorn/yamdb_final.git
 ```
 ### Создать файл .env в папке infra/ и заполнить его в соответствии с примером (файл .env.example):
 ### Из папки infra/ запустить Docker:
